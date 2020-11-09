@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color Game</title>
+    <link rel="stylesheet" href="style.css" >
+    
+</head>
+<body>
+    <div class="main-interface">      
+        
+        <tr>
+            <div class="header">
+                <h1> Цветные квадраты </h1>          
+            </div>
+
+            <div class="rating">
+                <h1> Рейтинг </h1> 
+            </div>
+            
+        </tr>
+        
+        <div class="left-menu">
+            <div class="time">
+                <H1> Timer </H1>
+                <div id="timeText">
+                    0
+                </div>
+                <br>
+            </div>
+            <div class="level">
+                <H1> Level </H1>
+                <div id="level">
+                    0
+                </div>
+                <br>
+            </div>
+            <div>
+                <button type="button" class="start" onclick="startGame()"> START </button>
+            </div>
+        </div>
+
+        <div class="game-field" id="gameField"> </div>
+        <div class="right-menu" id="ratingList"> </div>
+
+
+        <script type="text/javascript" src="code.js"></script>
+    </div>
+    <div><button type="button" class="bot" onclick="bot()"> Получить помощь бота </button> </div>
+        
+</body>
+</html>
+
+
